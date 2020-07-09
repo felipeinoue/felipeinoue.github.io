@@ -1,0 +1,19 @@
+input[name=q] {
+  width: 600px;
+  height: 48px;
+  box-sizing: border-box;
+  border: 1px solid #dbdbdb;
+  border-radius: 24px;
+  outline: none;
+  background-color: white;
+  background-image: url(images/magnify.svg);
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 48px;
+}
+
+input[name=q]:hover {
+  box-shadow: 0px 0px 2px 0.2px #dbdbdb, 0px 2px 2px 0.2px #dbdbdb;
+}
+
+/*# sourceMappingURL=styles.css.map */
