@@ -1,15 +1,17 @@
 input[name=q] {
-  width: 600px;
+  width: 487px;
   height: 48px;
   box-sizing: border-box;
   border: 1px solid #dbdbdb;
   border-radius: 24px;
   outline: none;
   background-color: white;
-  background-image: url(images/magnify.svg);
-  background-position: 10px 10px;
+  background-image: url(../images/magnify.svg);
+  background-position: 16px;
   background-repeat: no-repeat;
   padding-left: 48px;
+  font-size: 16px;
+  margin: auto;
 }
 
 input[name=q]:hover {
