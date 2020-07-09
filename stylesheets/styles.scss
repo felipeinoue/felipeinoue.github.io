@@ -4,7 +4,7 @@ input[name="q"] {
     width: 600px;
     height: 48px;
     box-sizing: border-box;
-    border: 1px solid rgb(219, 219, 219);
+    border: 1px solid $InputGray;
     border-radius: 24px;
     outline: none;
     background-color: white;
@@ -12,8 +12,9 @@ input[name="q"] {
     background-position: 10px 10px;
     background-repeat: no-repeat;
     padding-left: 48px;
+    font-size: 28;
 }    
 
 input[name="q"]:hover {
-    box-shadow: 0px 0px 2px 0.2px rgb(219, 219, 219), 0px 2px 2px 0.2px rgb(219, 219, 219);
+    box-shadow: 0px 0px 2px 0.2px $InputGray, 0px 2px 2px 0.2px $InputGray;
 }
