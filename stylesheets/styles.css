@@ -1,6 +1,12 @@
-input[name=q] {
-  width: 487px;
+#search_input {
+  width: 650px;
   height: 48px;
+  margin-left: 297px;
+}
+
+input[name=q] {
+  width: 100%;
+  height: 100%;
   box-sizing: border-box;
   border: 1px solid #dbdbdb;
   border-radius: 24px;
@@ -11,11 +17,24 @@ input[name=q] {
   background-repeat: no-repeat;
   padding-left: 48px;
   font-size: 16px;
-  margin: auto;
 }
 
 input[name=q]:hover {
   box-shadow: 0px 0px 2px 0.2px #dbdbdb, 0px 2px 2px 0.2px #dbdbdb;
+}
+
+#body {
+  width: 1200px;
+  height: 200px;
+  padding: 0px;
+}
+
+#logo {
+  margin-left: 468px;
+}
+
+#search {
+  padding-top: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
