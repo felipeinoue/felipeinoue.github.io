@@ -1,36 +1,11 @@
-@media (max-width: 1199px) {
-  body {
-    display: flex;
-  }
-
-  #logo {
-    margin-left: 380px;
-  }
-
-  #search_bar {
-    margin-left: 264px;
-  }
-}
-@media (min-width: 1200px) {
-  #body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-}
-#body {
-  width: 1200px;
-  height: 200px;
-  padding: 0px;
-}
-
 #logo {
   margin-top: 217.5px;
+  margin-left: 450px;
 }
 
 #search_bar {
   margin-top: 25.5px;
+  margin-left: 334px;
   width: 532px;
   height: 51px;
 }
@@ -56,6 +31,7 @@ input[id=input_search_bar]:hover {
 #search_buttons {
   margin-top: 32px;
   text-align: center;
+  vertical-align: middle;
 }
 
 .Google_search_btn {
@@ -63,7 +39,7 @@ input[id=input_search_bar]:hover {
   color: #585858;
   border: 1px solid #eeeeee;
   border-radius: 5px;
-  padding: 10px 16.5px;
+  padding: 6.5px 16.5px;
   background-color: #f5f5f5;
   height: 39px;
 }
