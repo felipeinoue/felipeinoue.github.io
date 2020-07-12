@@ -1,14 +1,25 @@
 $InputGray: #dbdbdb;
 
-@media (max-width: 1049px) {
+@media (max-width: 1199px) {
     body {
-        background-color: blue;
+        display: flex;
+    }
+
+    #logo {
+        margin-left: 380px;   
+    }
+
+    #search_bar {
+        margin-left: 264px;
     }
 }
 
-@media (min-width: 1050px) {
-    body {
-        background-color: red;
+@media (min-width: 1200px) {
+    #body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
 
@@ -20,12 +31,10 @@ $InputGray: #dbdbdb;
 
 #logo {
     margin-top: 217.5px;
-    margin-left: 380px;   
 }
 
 #search_bar {
     margin-top: 25.5px;
-    margin-left: 264px;
     width: 532px;
     height: 51px;
 }
