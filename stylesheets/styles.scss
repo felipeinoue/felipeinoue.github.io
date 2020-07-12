@@ -1,5 +1,17 @@
 $InputGray: #dbdbdb;
 
+@media (max-width: 1049px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media (min-width: 1050px) {
+    body {
+        background-color: red;
+    }
+}
+
 #body {
     width: 1200px;
     height: 200px;
@@ -7,14 +19,15 @@ $InputGray: #dbdbdb;
 }
 
 #logo {
+    margin-top: 217.5px;
     margin-left: 380px;   
 }
 
 #search_bar {
-    padding-top: 20px;
+    margin-top: 25.5px;
     margin-left: 264px;
     width: 532px;
-    height: 48px;
+    height: 51px;
 }
 
 #input_search_bar {
@@ -36,6 +49,7 @@ input[id="input_search_bar"]:hover {
 }
 
 #search_buttons {
+    margin-top: 32px;
     text-align: center;
 }
 
@@ -46,6 +60,7 @@ input[id="input_search_bar"]:hover {
     border-radius: 5px;
     padding: 10px 16.5px;
     background-color: #f5f5f5;
+    height: 39px;
 }
 
 input[class="Google_search_btn"]:hover {
@@ -54,4 +69,11 @@ input[class="Google_search_btn"]:hover {
 
 #input_Lucky {
     margin-left: 8px;
+}
+
+#Google_offered {
+    margin-top: 33px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
 }
