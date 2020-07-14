@@ -34,13 +34,11 @@ $InputGray: #dbdbdb;
 
 #logo {
     margin-top: 217.5px;
-    /*margin-left: 450px;*/
     margin-left: 405px;
 }
 
 #search_bar {
     margin-top: 25.5px;
-    /*margin-left: 334px;*/
     margin-left: 289px;
     width: 532px;
     height: 51px;
@@ -53,7 +51,7 @@ $InputGray: #dbdbdb;
     border: 1px solid $InputGray;
     border-radius: 24px;
     outline: none;
-    background-image: url(../images/magnify.svg);
+    background-image: url(magnify.svg);
     background-position: 16px;
     background-repeat: no-repeat;
     padding-left: 48px;
